@@ -1,0 +1,7 @@
+<templateSet group="Java - ALMplus">
+  <template name="uow" value="final com.vector.almplus.client.core.session.api.ISession session = com.vector.almplus.client.core.session.api.SessionFactory.getSession();&#10;try (final com.vector.almplus.client.core.session.api.IUnitOfWork unitOfWork = session.openUnitOfWork()) {&#10;&#9;// use try with resources or unitOfWork.unregisterChangeNotification();&#10;}" description="Create a UnitOfWork" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

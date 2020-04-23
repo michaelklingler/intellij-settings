@@ -1,0 +1,64 @@
+<templateSet group="Java - UnitTests">
+  <template name="test" value="@org.junit.Test&#10;public void test$NAME$() throws Exception {&#10;&#9;$END$&#10;}" description="create test case" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+    </context>
+  </template>
+  <template name="sup" value="@org.junit.Before&#10;public void setup(){&#10;&#9;$END$&#10;}" description="Unit test setup" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="asequals" value="org.junit.Assert.assertEquals($expected$, $actual$);$END$" description="assert equals" toReformat="false" toShortenFQNames="true">
+    <variable name="expected" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="actual" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="mck" value="$name$Mock = org.mockito.Mockito.mock($type$.class); &#10;$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="mckd" value="$name$Mock = org.mockito.Mockito.mock($type$.class, org.mockito.Mockito.RETURNS_DEEP_STUBS); &#10;$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="asfalse" value="org.junit.Assert.assertFalse($expected$);$END$" description="Assert false" toReformat="false" toShortenFQNames="true">
+    <variable name="expected" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="astrue" value="org.junit.Assert.assertTrue($expected$);$END$" description="Assert false" toReformat="false" toShortenFQNames="true">
+    <variable name="expected" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="asnull" value="org.junit.Assert.assertNull($actual$);$END$" description="Assert null" toReformat="false" toShortenFQNames="true">
+    <variable name="actual" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="asnotnull" value="org.junit.Assert.assertNotNull($actual$);$END$" description="Assert null" toReformat="false" toShortenFQNames="true">
+    <variable name="actual" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tdown" value="@org.junit.After&#10;public void tearDown(){&#10;    $END$&#10;}" description="Unit test tear down" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
