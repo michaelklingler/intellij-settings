@@ -5,5 +5,17 @@
         <option value="java:S110" />
       </set>
     </option>
+    <option name="sonarQubeServers">
+      <list>
+        <SonarQubeServer>
+          <option name="hostUrl" value="https://sonar.dev.almplus.vi.vector.int/" />
+          <option name="name" value="ALMplusSonar" />
+          <option name="login" value="vismik" />
+          <password>dfc7dfc1dfd9dfc1dfdedfc1dfcbdfc1df98df9adf98df9fdf8b</password>
+          <organizationKey>default-organization</organizationKey>
+          <enableNotifications>true</enableNotifications>
+        </SonarQubeServer>
+      </list>
+    </option>
   </component>
 </application>
