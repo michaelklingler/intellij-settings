@@ -1,0 +1,7 @@
+<application>
+  <component name="GithubAccounts">
+    <account id="7f92713c-f3d3-4eb8-87aa-b8ea7a9a5fa4" name="vismik">
+      <server useHttp="false" host="github1.vg.vector.int" />
+    </account>
+  </component>
+</application>
