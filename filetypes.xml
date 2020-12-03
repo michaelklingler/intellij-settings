@@ -1,5 +1,5 @@
 <application>
-  <component name="FileTypeManager" version="17">
+  <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="subpackage-editor" type="PLAIN_TEXT" />
