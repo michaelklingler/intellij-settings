@@ -44,4 +44,29 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="test" value="@org.junit.jupiter.api.Test&#10;void test$NAME$() {&#10;    $END$&#10;}" description="create test case Junit 5" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="sup" value="@org.junit.jupiter.api.BeforeEach();&#10;public void setup(){&#10;$END$&#10;}&#10;" description="Unit5 test setup" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="asequals" value="org.junit.jupiter.api.Assertions.assertEquals($expected$, $actual$);$END$" description="assert equals" toReformat="false" toShortenFQNames="true">
+    <variable name="expected" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="actual" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="mock" value="$name$Mock = org.mockito.Mockito.mock($type$.class); $END$" description="Mock class" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
