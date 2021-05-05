@@ -14,8 +14,8 @@
     <mask>*</mask>
     <mask>*.*</mask>
     <mask>*.feature</mask>
-    <mask>*.xml</mask>
     <mask>*.yaml</mask>
+    <mask>*.xml</mask>
     <mask>*.java</mask>
   </component>
 </application>
