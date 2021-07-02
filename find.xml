@@ -17,9 +17,9 @@
     <mask>*</mask>
     <mask>*.xsd</mask>
     <mask>bindings.xml</mask>
-    <mask>*.feature</mask>
     <mask>*.xml</mask>
     <mask>*.groovy</mask>
+    <mask>*.feature</mask>
     <mask>*.java</mask>
   </component>
 </application>
