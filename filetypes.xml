@@ -8,6 +8,7 @@
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping ext="mockmaker" type="PLAIN_TEXT" />
       <mapping ext="dvmf" type="PLAIN_TEXT" />
+      <mapping ext="iuml" type="PLAIN_TEXT" />
       <removed_mapping ext="feature" approved="true" type="Substeps" />
     </extensionMap>
   </component>
