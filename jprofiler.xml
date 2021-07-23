@@ -1,5 +1,6 @@
 <application>
   <component name="JrePropertiesCache">
     <jre homeDir="D:\opt\Java\amazon-corretto-8.212.04.2-windows-x64-jdk-vector\jdk1.8.0_212" arch64Bit="true" />
+    <jre homeDir="D:\opt\Java\jdk11.0.11_9" arch64Bit="true" />
   </component>
 </application>
