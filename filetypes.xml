@@ -9,11 +9,11 @@
       <mapping pattern="subpackage-editor" type="PLAIN_TEXT" />
       <mapping ext="mockmaker" type="PLAIN_TEXT" />
       <mapping ext="dvmf" type="PLAIN_TEXT" />
-      <mapping ext="iuml" type="PLAIN_TEXT" />
-      <mapping ext="plantuml" type="PLAIN_TEXT" />
       <mapping ext="rst" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="feature" approved="true" type="Substeps" />
+      <removed_mapping ext="iuml" approved="true" type="PlantUML include file" />
+      <removed_mapping ext="plantuml" approved="true" type="PlantUML file" />
       <removed_mapping ext="psd" approved="true" type="Image" />
     </extensionMap>
   </component>
