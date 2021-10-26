@@ -1,11 +1,11 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Module 'com.vector.safetymanual.cli'" />
-    <option name="defaultScopeName" value="Module 'com.vector.safetymanual.cli'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Module 'com.vector.safetymanual.cli'" />
-    <option name="FILE_MASK" value="Dockerfile" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.*" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -23,7 +23,7 @@
     <mask>*</mask>
     <mask>*.ftl</mask>
     <mask>*.java</mask>
-    <mask>*.*</mask>
     <mask>Dockerfile</mask>
+    <mask>*.*</mask>
   </component>
 </application>
