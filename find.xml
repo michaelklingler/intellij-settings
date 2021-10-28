@@ -5,25 +5,25 @@
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.*" />
-    <mask>*.css</mask>
-    <mask>*.html</mask>
-    <mask>*.jsp</mask>
-    <mask>*.properties</mask>
+    <option name="FILE_MASK" value="*.yaml" />
     <mask>*.iml</mask>
     <mask>*.xmi</mask>
-    <mask>*.yaml</mask>
     <mask>*.ini</mask>
     <mask>*.xsd</mask>
     <mask>bindings.xml</mask>
     <mask>*.feature</mask>
     <mask>*.groovy</mask>
-    <mask>*.xml</mask>
     <mask>*.ts</mask>
     <mask>*</mask>
     <mask>*.ftl</mask>
-    <mask>*.java</mask>
     <mask>Dockerfile</mask>
+    <mask>*.css</mask>
+    <mask>*.html</mask>
+    <mask>*.xml</mask>
+    <mask>*.jsp</mask>
+    <mask>*.properties</mask>
+    <mask>*.java</mask>
     <mask>*.*</mask>
+    <mask>*.yaml</mask>
   </component>
 </application>
