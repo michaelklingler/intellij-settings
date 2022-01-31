@@ -50,9 +50,6 @@
     <option name="ARRAY_INITIALIZER_WRAP" value="1" />
     <option name="PARAMETER_ANNOTATION_WRAP" value="2" />
     <option name="VARIABLE_ANNOTATION_WRAP" value="2" />
-    <indentOptions>
-      <option name="USE_TAB_CHARACTER" value="true" />
-    </indentOptions>
     <arrangement>
       <groups>
         <group>
