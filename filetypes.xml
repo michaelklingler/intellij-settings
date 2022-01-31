@@ -11,6 +11,7 @@
       <mapping ext="mockmaker" type="PLAIN_TEXT" />
       <mapping ext="dvmf" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
+      <removed_mapping ext="avsc" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="feature" approved="true" type="Substeps" />
       <removed_mapping ext="iuml" approved="true" type="PlantUML include file" />
       <removed_mapping ext="plantuml" approved="true" type="PlantUML file" />
