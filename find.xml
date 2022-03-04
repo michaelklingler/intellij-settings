@@ -3,13 +3,12 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.*" />
+    <option name="FILE_MASK" value="*.feature" />
     <mask>*.iml</mask>
     <mask>*.xmi</mask>
     <mask>*.ini</mask>
     <mask>*.xsd</mask>
     <mask>bindings.xml</mask>
-    <mask>*.feature</mask>
     <mask>*.groovy</mask>
     <mask>*.ts</mask>
     <mask>*</mask>
@@ -23,5 +22,6 @@
     <mask>*.xml</mask>
     <mask>*.java</mask>
     <mask>*.*</mask>
+    <mask>*.feature</mask>
   </component>
 </application>
