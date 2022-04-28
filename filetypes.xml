@@ -11,6 +11,7 @@
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping ext="mockmaker" type="PLAIN_TEXT" />
       <mapping ext="dvmf" type="PLAIN_TEXT" />
+      <mapping pattern="ProjectSettingsContent" type="TypeScript JSX" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="avsc" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="feature" approved="true" type="Substeps" />
