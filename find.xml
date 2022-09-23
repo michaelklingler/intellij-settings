@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.feature" />
+    <option name="FILE_MASK" value="*.*" />
     <mask>*.iml</mask>
     <mask>*.xmi</mask>
     <mask>*.ini</mask>
@@ -22,7 +22,7 @@
     <mask>*.java</mask>
     <mask>*.ts</mask>
     <mask>*.tsx</mask>
-    <mask>*.*</mask>
     <mask>*.feature</mask>
+    <mask>*.*</mask>
   </component>
 </application>
