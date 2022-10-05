@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.png" />
+    <option name="FILE_MASK" value="*.*" />
     <mask>*.iml</mask>
     <mask>*.xmi</mask>
     <mask>*.ini</mask>
@@ -23,7 +23,7 @@
     <mask>*.java</mask>
     <mask>*.xml</mask>
     <mask>*.tsx</mask>
-    <mask>*.*</mask>
     <mask>*.png</mask>
+    <mask>*.*</mask>
   </component>
 </application>
