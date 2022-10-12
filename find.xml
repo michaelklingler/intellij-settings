@@ -18,12 +18,11 @@
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
-    <mask>*.ts</mask>
-    <mask>*.java</mask>
     <mask>*.xml</mask>
-    <mask>*.tsx</mask>
-    <mask>*.png</mask>
+    <mask>*.java</mask>
     <mask>*.feature</mask>
+    <mask>*.ts</mask>
+    <mask>*.tsx</mask>
     <mask>*.*</mask>
   </component>
 </application>
